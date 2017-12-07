@@ -9,7 +9,7 @@
 		"ypos"			"c80"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"80"
-		"tall"			"25"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -30,14 +30,14 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"Health"
-		"fgcolor"		"White"
+		"fgcolor"		"HP"
 	}	
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"26"
-		"ypos"			"1"	[$WIN32]
+		"xpos"			"27"
+		"ypos"			"2"	[$WIN32]
 		"zpos"			"5"
 		"auto_wide_tocontents"			"1"
 		"tall"			"25"
@@ -46,7 +46,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"Health"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"HPBG"
 	}
 	
 	//icons
