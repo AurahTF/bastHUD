@@ -50,7 +50,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
-				"border_default"	"MainMenuButtonDefault"
+				"border_default"	"bBorderGrey"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 				
@@ -130,17 +130,37 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"32 32 32 200"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"paintborder"	"0"
+		"border"				"bBorderGrey"
+		"border_override"		"bBorderGrey"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"ImagePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"0"
+    		"wide"				"6"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"paintbackground"		"1"
+			"PaintBackgroundType"	"2"
+			"border"		"NoBorder"
+			"fillcolor"			"32 32 32 200"
+    	}
 		
 		"attriblabel"
 		{
@@ -344,7 +364,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"bBorderGrey"
 		
 		"TipSubLabel"
 		{
@@ -1227,7 +1247,7 @@
 		"tall"			"38"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"bBorderGrey"
 	}
 
 	"VRModeButton"
@@ -1270,7 +1290,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuButtonDefault"
+			"border_default"	"bBorderGrey"
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
 			
@@ -1319,7 +1339,7 @@
 		"tall"			"150"
 		"visible"		"1"
 
-		"border"		"MainMenuBGBorder"
+		"border"		"bBorderGrey"
 
 		"TitleLabel"
 		{
@@ -1460,7 +1480,7 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"bBorderGrey"
 
 			"TitleLabel"
 			{
@@ -1538,7 +1558,7 @@
 //					"command"		"view_update_page"
 //					"actionsignallevel"	"4"
 //			
-//					"border_default"	"MainMenuButtonDefault"
+//					"border_default"	"bBorderGrey"
 //					"border_armed"		"MainMenuButtonArmed"
 //					"paintbackground"	"0"
 //			
@@ -1608,7 +1628,7 @@
 //					"command"		"view_war"
 //					"actionsignallevel"	"4"
 //			
-//					"border_default"	"MainMenuButtonDefault"
+//					"border_default"	"bBorderGrey"
 //					"border_armed"		"MainMenuButtonArmed"
 //					"paintbackground"	"0"
 //			
@@ -1743,7 +1763,7 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"bBorderGrey"
 
 			"TitleLabel"
 			{
@@ -1791,7 +1811,7 @@
 				"command"		"safemode_save_settings"
 				"actionsignallevel"	"3"
 			
-				"border_default"	"MainMenuButtonDefault"
+				"border_default"	"bBorderGrey"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 			
@@ -1828,7 +1848,7 @@
 				"command"		"safemode_leave"
 				"actionsignallevel"	"3"
 			
-				"border_default"	"MainMenuButtonDefault"
+				"border_default"	"bBorderGrey"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 			
@@ -1903,7 +1923,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"showpromocodes"
 		
-		"border_default"	"MainMenuButtonDefault"
+		"border_default"	"bBorderGrey"
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
@@ -2190,10 +2210,12 @@
 		"zpos"			"-50"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"fillcolor"		"bgrey"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"border"        "bBorderGrey"
 	}				
 	"FooterLine"
 	{
@@ -2204,8 +2226,8 @@
 		"zpos"			"-5-"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	

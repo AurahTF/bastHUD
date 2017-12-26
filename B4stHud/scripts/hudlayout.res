@@ -21,6 +21,10 @@
 		"ypos"	"c80"
 		"wide"	"80"
 		"tall"	"27"
+		
+		"pin_to_sibling" "HudPlayerHealth"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 	
 	HudObjectiveStatus
@@ -211,12 +215,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"	"c-100"
+		"ypos"	"c107"
+		"wide"	"80"
+		"tall"	"27"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -250,61 +252,40 @@
 	}
 
 	CMainTargetID
-	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
-	}
-	
-	CSpectatorTargetID
-	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"40"
-		"priority_lodef" "35"
-		
-		"x_offset" "20"
-		"y_offset" "20"
-	}
-	
-	CSecondaryTargetID
-	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
-	}
+    {
+        "fieldName"     "CMainTargetID"
+        "visible"   "0"
+        "enabled"   "1"
+        "xpos"      "c-120"
+        "ypos"      "350"
+        "wide"      "60"
+        "tall"      "39"
+        "priority"  "40"
+    }
+    
+    CSpectatorTargetID
+    {
+        "fieldName"     "CSpectatorTargetID"
+        "visible"   "1"
+        "enabled"   "1"
+        "xpos"      "c-120"
+        "ypos"      "310"
+        "wide"      "60"
+        "tall"      "40"
+        "priority"  "40"
+    }
+    
+    CSecondaryTargetID
+    {
+        "fieldName"     "CSecondaryTargetID"
+        "visible"   "0"
+        "enabled"   "1"
+        "xpos"      "c-120"
+        "ypos"      "384"
+        "wide"      "60"
+        "tall"      "39"
+        "priority"  "35"
+    }
 	
 	BuildingStatus_Spy
 	{
@@ -421,7 +402,7 @@
 
 	HudDamageIndicator
 	{
-
+//		"fgcolor"	"0 0 0 255"
 	}
 
 	HudCommentary
@@ -812,7 +793,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
+//changed
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
@@ -822,10 +803,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"3"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -855,10 +835,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}

@@ -4,6 +4,9 @@ Scheme
 	{
 		//	"VaccinatorFg"			"0 255 255 255"
 		"VaccinatorBg"			"0 0 0 200"
+		
+		"DamagePositive"	"153 180 51 255"
+		"DamageNegative"	"255 255 255 255"
 
 		"HP"                  "234 234 234 255"//
 		"HPBG"				"46 43 42 255"//
@@ -39,6 +42,14 @@ Scheme
 
 		"Low-Ammo Warning 1"  "255 120 50 255"//
 		"Low-Ammo Warning 2"  "210 50 5 255"//
+		
+		"bblue"	"0 221 255 255"
+		"borange" "255 165 0 255"
+		"bgreen"	"153 180 51 255"
+		"bred"	"178 34 34 255"
+		"bpink"	"255 128 144 255"
+		"bgrey"	"30 30 30 175"
+		"bdarkgrey"	"234 234 234 255"
 		
 		//Replace
 		

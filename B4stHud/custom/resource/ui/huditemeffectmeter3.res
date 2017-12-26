@@ -6,10 +6,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-40"	[$WIN32]
-		"ypos"			"r86"	[$WIN32]
+		"ypos"			"c98"	[$WIN32]
+		"ypos_minmode"			"c97"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"80"
 		"tall"			"6"
+		"tall_minmode"			"4"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -61,5 +63,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override" "32 32 32 255"
+		"fgcolor_override"	"234 234 234 255"
 	}					
 }

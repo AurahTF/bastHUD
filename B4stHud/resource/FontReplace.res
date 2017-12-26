@@ -1999,5 +1999,10 @@ Scheme
 		     "font" "resource/font/heydings_icons.ttf"
 		     "name" "font3933"
 		}
+		"22" 
+		{
+		     "font" "resource/font/ToonHUD Icons.ttf"
+		     "name" "ToonHUD Icons"
+		}
 	}
 }
