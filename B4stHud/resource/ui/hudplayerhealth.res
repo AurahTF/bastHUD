@@ -85,8 +85,8 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling" "StatusIconFix"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "TOPLEFT"
+		"pin_to_sibling_corner" "TOPRIGHT"
 	}
 	"PlayerStatusHookBleedImage"
 	{
@@ -95,7 +95,7 @@
 		"xpos"			"85"
 
 		"ypos"			"0"
-		"zpos"			"8"
+		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -104,8 +104,8 @@
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling" "StatusIconFix"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "TOPLEFT"
+		"pin_to_sibling_corner" "TOPRIGHT"
 	}
 	"PlayerStatusMilkImage"
 	{
@@ -122,8 +122,8 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling" "StatusIconFix"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "TOPLEFT"
+		"pin_to_sibling_corner" "TOPRIGHT"
 	}
 	"PlayerStatusGasImage"
 	{
@@ -140,8 +140,8 @@
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling" "StatusIconFix"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "TOPLEFT"
+		"pin_to_sibling_corner" "TOPRIGHT"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -159,8 +159,8 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling" "StatusIconFix"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "TOPLEFT"
+		"pin_to_sibling_corner" "TOPRIGHT"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -380,8 +380,8 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 		"pin_to_sibling" "StatusIconFix"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "TOPLEFT"
+		"pin_to_sibling_corner" "TOPRIGHT"
 	}
 	"PlayerStatus_RuneStrength"
 	{

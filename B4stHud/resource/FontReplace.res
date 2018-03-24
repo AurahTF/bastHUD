@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"Archive_numbers"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -1319,9 +1319,6 @@ Scheme
 			{
 				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
 				"antialias"	"1"
 			}
 		}
@@ -2003,6 +2000,11 @@ Scheme
 		{
 		     "font" "resource/font/ToonHUD Icons.ttf"
 		     "name" "ToonHUD Icons"
+		}		
+		"23" 
+		{
+		     "font" "resource/font/Entypo.otf"
+		     "name" "Entypo"
 		}
 	}
 }

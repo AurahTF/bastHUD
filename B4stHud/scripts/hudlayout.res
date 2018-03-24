@@ -19,6 +19,7 @@
 		"enabled" "1"
 		"xpos"	"c55"
 		"ypos"	"c80"
+		"zpos"	"-99"
 		"wide"	"80"
 		"tall"	"27"
 		

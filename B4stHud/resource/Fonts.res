@@ -246,6 +246,17 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 			}
+		}		
+		
+		"Trophy"
+		{
+			"1"
+			{
+				"name"			"Entypo"
+				"tall"			"32"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
 		}
 		
 		"CircleBG"
